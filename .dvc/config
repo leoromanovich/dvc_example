@@ -4,3 +4,7 @@
     type = symlink
 [core]
     autostage = true
+    remote = s3store
+['remote "s3store"']
+    url = s3://dvc-practice/dvc/cache
+    endpointurl = http://hb.bizmrg.com
