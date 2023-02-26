@@ -1,0 +1,6 @@
+[cache]
+    dir = ../../shared_cache
+    shared = group
+    type = symlink
+[core]
+    autostage = true
